@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Loader from './Loder'
 
-const ProductList = () => {
+const Main = () => {
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
 
@@ -67,4 +67,4 @@ const ProductList = () => {
 
 }
 
-export default ProductList 
+export default Main 
